@@ -14,7 +14,7 @@ contract Defi is IDefi {
 
     mapping(address => uint256) public bnbBank;
 
-    address public constant BNB_ADDRESS = 0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE;
+    address public constant BNB_ADDRESS = 0xc2c8196a37659e21C9a49907846c9431B328fa29;
 
     event DepositBnbEvent(address indexed _user, uint256 _amount);
     event WithdrawBnbEvent(address indexed _user, uint256 _amount);
